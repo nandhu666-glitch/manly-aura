@@ -27,7 +27,7 @@ export default async function OrderSuccessPage({ params }: PageProps) {
   const whatsappMessage = encodeURIComponent(
     `Hello MANLY AURA team, I have placed Order #${order.id} on www.manlyaura.com for ₹${order.total}. Could you please confirm dispatch details?`
   );
-  const whatsappUrl = `https://wa.me/917356677512?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/916282307512?text=${whatsappMessage}`;
 
   return (
     <div className="bg-black text-white min-h-screen py-16 sm:py-24">
@@ -161,7 +161,7 @@ export default async function OrderSuccessPage({ params }: PageProps) {
             className="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2 transition"
           >
             <MessageSquare size={16} />
-            <span>Receive Dispatch Updates on WhatsApp (+91 7356677512)</span>
+            <span>Receive Dispatch Updates on WhatsApp (+91 6282307512)</span>
           </a>
 
           <div className="flex flex-col sm:flex-row gap-4">

@@ -39,7 +39,7 @@ export default function ReturnsPolicyPage() {
           <section className="space-y-2">
             <h2 className="text-sm font-bold uppercase font-mono text-white">3. How to Request an Exchange</h2>
             <p>
-              To initiate a replacement, simply contact our concierge team via WhatsApp or call at <strong>+91 7356677512</strong> or email <strong>support@manlyaura.com</strong> with your Order ID and a clear photograph/video of the issue.
+              To initiate a replacement, simply contact our concierge team via WhatsApp or call at <strong>+91 6282307512</strong> or email <strong>support@manlyaura.com</strong> with your Order ID and a clear photograph/video of the issue.
             </p>
           </section>
 
@@ -55,3 +55,4 @@ export default function ReturnsPolicyPage() {
     </div>
   );
 }
+

@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
           <section className="space-y-2">
             <h2 className="text-sm font-bold uppercase font-mono text-white">4. Contact Data Officer</h2>
             <p>
-              For data access, correction, or deletion requests, contact our privacy team at <strong>support@manlyaura.com</strong> or phone <strong>+91 7356677512</strong>.
+              For data access, correction, or deletion requests, contact our privacy team at <strong>support@manlyaura.com</strong> or phone <strong>+91 6282307512</strong>.
             </p>
           </section>
         </div>
@@ -52,3 +52,4 @@ export default function PrivacyPolicyPage() {
     </div>
   );
 }
+

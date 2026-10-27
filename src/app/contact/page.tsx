@@ -35,8 +35,8 @@ export default function ContactPage() {
                 <Phone size={16} className="text-white shrink-0 mt-0.5" />
                 <div>
                   <span className="text-[10px] uppercase text-neutral-500 block">Direct Hotline</span>
-                  <a href="tel:7356677512" className="text-white font-bold hover:underline">
-                    +91 7356677512
+                  <a href="tel:6282307512" className="text-white font-bold hover:underline">
+                    +91 6282307512
                   </a>
                 </div>
               </div>
@@ -46,12 +46,12 @@ export default function ContactPage() {
                 <div>
                   <span className="text-[10px] uppercase text-neutral-500 block">WhatsApp Support</span>
                   <a
-                    href="https://wa.me/917356677512"
+                    href="https://wa.me/916282307512"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-emerald-400 font-bold hover:underline"
                   >
-                    Chat on WhatsApp (+91 7356677512)
+                    Chat on WhatsApp (+91 6282307512)
                   </a>
                 </div>
               </div>
@@ -136,3 +136,4 @@ export default function ContactPage() {
     </div>
   );
 }
+

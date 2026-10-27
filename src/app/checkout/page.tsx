@@ -615,7 +615,7 @@ export default function CheckoutPage() {
                   <ShieldCheck size={12} className="text-white" />
                   <span>Verified Razorpay Merchant & Fast Dispatch</span>
                 </p>
-                <p>Support Hotline: +91 7356677512</p>
+                <p>Support Hotline: +91 6282307512</p>
               </div>
 
             </div>
@@ -627,3 +627,4 @@ export default function CheckoutPage() {
     </div>
   );
 }
+

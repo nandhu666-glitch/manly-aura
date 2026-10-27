@@ -4,7 +4,7 @@ import React from 'react';
 import { MessageSquare } from 'lucide-react';
 
 export default function WhatsAppButton() {
-  const phoneNumber = '917356677512';
+  const phoneNumber = '916282307512';
   const defaultMessage = encodeURIComponent(
     'Hello MANLY AURA team, I need assistance with an order/product on www.manlyaura.com'
   );
@@ -27,3 +27,4 @@ export default function WhatsAppButton() {
     </a>
   );
 }
+

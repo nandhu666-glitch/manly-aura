@@ -54,7 +54,7 @@ export default function ShippingPolicyPage() {
           <section className="space-y-2">
             <h2 className="text-sm font-bold uppercase font-mono text-white">5. Tracking Inquiries</h2>
             <p>
-              You can track your order at any time using our live <Link href="/track-order" className="text-white underline">Track Order</Link> page, or reach out to our concierge team at <strong>+91 7356677512</strong>.
+              You can track your order at any time using our live <Link href="/track-order" className="text-white underline">Track Order</Link> page, or reach out to our concierge team at <strong>+91 6282307512</strong>.
             </p>
           </section>
         </div>
@@ -63,3 +63,4 @@ export default function ShippingPolicyPage() {
     </div>
   );
 }
+

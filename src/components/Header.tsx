@@ -49,11 +49,11 @@ export default function Header() {
               <span>@manlyaura.in</span>
             </a>
             <a
-              href="tel:7356677512"
+              href="tel:6282307512"
               className="hover:text-white transition flex items-center gap-1"
             >
               <Phone size={12} />
-              <span>+91 7356677512</span>
+              <span>+91 6282307512</span>
             </a>
             <Link href="/track-order" className="hover:text-white transition">
               Track Order
@@ -176,9 +176,9 @@ export default function Header() {
               </Link>
             </div>
             <div className="border-t border-neutral-800 pt-4 flex flex-col gap-2 text-xs text-neutral-400 font-mono">
-              <a href="tel:7356677512" className="flex items-center gap-2">
+              <a href="tel:6282307512" className="flex items-center gap-2">
                 <Phone size={14} />
-                <span>Call/WhatsApp: +91 7356677512</span>
+                <span>Call/WhatsApp: +91 6282307512</span>
               </a>
               <a href="https://www.instagram.com/manlyaura.in/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <InstagramIcon size={14} />
@@ -236,3 +236,4 @@ export default function Header() {
     </>
   );
 }
+

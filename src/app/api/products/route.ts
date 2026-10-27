@@ -78,6 +78,31 @@ export async function PUT(req: NextRequest) {
   }
 }
 
+export async function PATCH(req: NextRequest) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const id = searchParams.get('id');
+
+    if (!id) {
+      return NextResponse.json({ error: 'Product ID is required' }, { status: 400 });
+    }
+
+    const updates = await req.json();
+    if (updates.price !== undefined) updates.price = Number(updates.price);
+    if (updates.compareAtPrice !== undefined) updates.compareAtPrice = Number(updates.compareAtPrice);
+    if (updates.stock !== undefined) updates.stock = Number(updates.stock);
+
+    const updated = await updateProduct(id, updates);
+    if (!updated) {
+      return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+    }
+
+    return NextResponse.json({ success: true, product: updated });
+  } catch (error: any) {
+    return NextResponse.json({ error: error.message || 'Failed to update product' }, { status: 500 });
+  }
+}
+
 export async function DELETE(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);

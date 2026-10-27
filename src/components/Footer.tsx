@@ -67,7 +67,7 @@ export default function Footer() {
             <div className="pt-2 text-xs space-y-1.5 font-mono text-neutral-400">
               <p className="flex items-center gap-2">
                 <Phone size={14} className="text-white" />
-                <a href="tel:7356677512" className="hover:text-white transition">+91 7356677512</a>
+                <a href="tel:6282307512" className="hover:text-white transition">+91 6282307512</a>
               </p>
               <p className="flex items-center gap-2">
                 <InstagramIcon size={14} className="text-white" />
@@ -169,3 +169,4 @@ export default function Footer() {
     </footer>
   );
 }
+
